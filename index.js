@@ -33,7 +33,7 @@ const { parse } = require('csv-parse');
 (async () => {
   const data = [];
 
-  fs.createReadStream('./employee_list.csv')
+  fs.createReadStream('./staff_list.csv')
     .pipe(
       parse({
         delimiter: ',',
